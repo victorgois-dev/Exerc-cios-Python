@@ -1,0 +1,13 @@
+lista = []
+nota1 = int(input("Digite a nota:"))
+nota2 = int(input("Digite a nota:"))
+nota3 = int(input("Digite a nota:"))
+nota4 = int(input("Digite a nota:"))
+nota5 = int(input("Digite a nota:"))
+lista.append(nota1)
+lista.append(nota2)
+lista.append(nota3)
+lista.append(nota4)
+lista.append(nota5)
+maior = max(lista)
+print(maior)
